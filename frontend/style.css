@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* height: 100%; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    width: 25%;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 200px;
+}
+
+
+
+.input {
+    width: 100%;
+    height: 100%;
+    margin-top: 18px;
+}
+
+.text-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #cacaca;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.toDK{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.textToDk{
+    border-width: 0px;
+    background-color: white;
+    font-size: 12px;
+    margin-left: 6px;
+    font-weight: bold;
+    color: #42619D;
+    cursor: pointer;
+}
+
+.text-input::placeholder {
+    font-size: 11px;
+    cursor: text;
+    opacity: 0.6;
+}
+
+.text-input:focus-visible {
+    outline: none;
+}
+
+.button-login-parent {
+    width: 100%;
+    height: 40px;
+    margin-top: 18px;
+}
+
+.button-login-parent2 {
+    width: 25%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.button-login-child {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 29, 86, 1);
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.text-button-login {
+    font-size: 12px;
+    color: white;
+    opacity: 0.9;
+}
+
+.itemList,
+.itemList2 {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemList2:hover{
+    background-color: #929292;
+}
+
+.itemList {
+    /* width: 100%; */
+}
+
+.itemListElement,
+.itemListElement2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-right: 0px;
+}
+
+.itemListElement2 {
+    width: 100%;
+    height: 45px;
+}
+
+.itemListElement {
+    height: 70px;
+    width: 100%;
+}
+
+.gray {
+    background-color: #cacaca;
+}
+
+.text-align {
+    text-align: center;
+}
+
+#list {
+    padding-top: 75px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.footer {
+    border-width: 0px;
+    border-top-width: 1px;
+    margin-top: 15px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header {
+    height: 80px;
+    position: fixed;
+    margin-bottom: 45px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(7, 174, 7);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.title{
+    padding: 2px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Signin{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
+
+.titleBook{
+    width: 2000px;
+}
+
+.renderId{
+    width: 500px;
+}
+
+.renderId2{
+    width: 300px;
+}
+
+
+.main-view{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.view-info{
+    width: 40%;
+    margin-left: 100px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.title-author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divTitle{
+    width: 100%;
+    /* margin-right: 10px; */
+}
+
+.mg-10{
+    margin-right: 10px;
+}
+
+.text-input2 {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #cacaca;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 10px;
+}
+
+.text-input3{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    border-color: #cacaca;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.text-cmt{
+    margin-top: 12px;
+}
+
+.description{
+    width: 100%;
+    margin-right: 10px;
+}
+.catetory{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #cacaca;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 10px;
+}
+.notImg{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.comment{
+    margin-top: 10px;
+    height: 75px;
+    width: 50%;
+    /* margin-right: 30px; */
+}
+
+.editCmt{
+    width: 70px;
+    height: 20px;
+    color: aliceblue;
+    margin-left:12px;
+    background-color: rgb(158, 158, 162);
+    border-style: none;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.txtCmt{
+    padding-left: 30px;
+    /* margin-bottom: 60px; */
+}
+
+.txtCmtDetail,.txtCmtDetail2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.txtCmtDetail{
+    margin-bottom: 80px;
+}
+
+.txtCmtDetail2{
+    margin-bottom: 50px;
+}
+
+.txtinfoUser{
+    width: 100%;
+    height: 40px;
+}
+
+.positionEnd{
+    /* margin-left: auto !important; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.txtnameUser{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.imgUser{
+    margin-right: 12px;
+}
+
+.amount{
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.divTitle4{
+    width: 100%;
+    padding-left: 30px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+}
+.divTitle5{
+    width: 100%;
+    padding-left: 30px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: 8px; */
+}
+.space {
+    width: 100%;
+    height: 100px;
+}
+
+.text-input4{
+    height: 40px;
+    width: 15%;
+    border-radius: 5px;
+    border-color: #cacaca;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    margin-left: 12px;
+}
+.text-input5{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #cacaca;
+    background-color: white;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    padding-left:20px ;
+}
+
+.text-input5:focus{
+    outline: none;
+    border-color: #42619D;
+    text-align: left;
+}
+
+.btnEdit{
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    margin-right:8px;
+    background-color: blue;
+    border-style: none;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-comfirm-del{
+    text-align: center;
+}
+.btnDelete{
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    background-color: red;
+    border-style: none;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnAddToBasket{
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    background-color: green;
+    border-style: none;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.green{
+    background-color: green !important;
+}
+
+.button-back{
+    width: 100px;
+    height: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: blue;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.underlinenone{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top:10px ;
+    font-size: 14px;
+}
+
+.button-back > p {
+    color: wheat;
+}
+
+.red{
+    background-color: red;
+}
+
+.comfirm {
+    margin: auto;
+    margin-top: 200px;
+    padding: 100px;
+    padding-top: 60px;
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.comfirm >p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btncf{
+    width: 60px;
+}
+
+.main-confirm{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+.star{
+    cursor: pointer;
+    height: 50px;
+    width: 40px;
+    background-image: url('./img/star0.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+
+
+#rating{
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 50%;
+    padding-right: 30px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.starinput{
+    visibility: hidden;
+}
+
+.txtStarCustomer{
+    display: flex;
+    flex-direction: row;
+}
+
+#rating>label:before{
+    height: 50px;
+    width: 40px;
+    background-image: url('./img/star1.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover, 
+#rating:not(:checked)>label:hover~label{
+    height: 50px;
+    width: 40px;
+    background-image: url('./img/star1.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{
+    height: 50px;
+    width: 40px;
+    background-image: url('./img/star1.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+
+#ratingNone{
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 50%;
+    padding-right: 30px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.starLight{
+    height: 50px;
+    width: 40px;
+    background-image: url('./img/star1.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+.starOff{
+    height: 50px;
+    width: 40px;
+    background-image: url('./img/star0.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+
